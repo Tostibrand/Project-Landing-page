@@ -1,0 +1,190 @@
+* {
+    font-family: "open sans";
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    
+}
+main {
+    display: flex;
+    flex-direction: column;
+    }
+nav {
+    display: flex;
+}
+ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-right: 100px;
+}
+
+li{
+padding: 10px;
+}
+h1 {
+    font-size: 48px;
+    color: #e5e7eb;
+    font-weight: bolder;
+}
+
+/* header and everthing in it */
+.header {
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background-color: #1F2937;
+    color: #e5e7eb;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: auto;
+    }
+img.odin-logo {
+    width: 50px;
+    margin-left: 100px;
+}
+img.winking-odin {
+        height: 200px;
+        border-radius: 100vh;
+}
+img.odin-beard,
+img.gif-3,
+img.gif-2,
+img.gif-4 {
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+}
+.button-1{
+    color: #e5e7eb;
+    font-weight: 900;
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 5px;
+    width: 90px;
+}
+
+
+
+/* header and everthing in it */
+
+/* sections */
+
+.section-1 {
+display: flex;
+justify-content: space-between;
+height: 300px;
+background-color: #1F2937;
+padding-left: 100px;
+padding-right: 100px;
+}
+            .section-1-left{
+            color: #f9faf8;
+            font-size: 18px;
+}
+            .section-1-right {
+            
+                
+            
+}
+.section-2 {
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+height: 300px;
+padding-left: 100px;
+padding-right: 100px;
+color: #1F2937;
+font-size: 36px;
+font-weight: 900;
+}
+.section-2-1 {
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.section-3 {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 270px;
+background-color:  #e5e7eb;
+padding-left: 100px;
+padding-right: 100px;
+font-style: italic;
+font-size: 36px;
+font-weight: lighter;
+flex: auto;
+}
+.quote {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.section-4 {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 230px;
+padding-left: 100px;
+padding-right: 100px;
+}
+.section-4-box {
+background-color: #3882f6;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 80pxpx;
+height: 120px;
+width: 900px;
+border-radius: 10px;
+ 
+
+}
+.section-4-left{
+    display: flex;
+    flex-direction: column;
+    padding: px;
+    margin-left: 50px;
+    color: #e5e7eb;
+    
+    flex: 1;
+
+}
+.button-bottom{
+    width: 150px;
+    height: 30px;
+    margin-right: 100px;
+    border-radius: 10px;
+    color: #e5e7eb;
+    font-weight: 900;
+    text-align: center;
+    background-color: #3882f6;
+    border: solid #f9faf8;
+    border-width: 1px;
+}
+.section-4-h2 {
+    margin-top: 20px;
+    margin-bottom: 0
+}
+.section-4-p {
+    margin-top: 0;
+}
+/* sections */
+.footer {
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background-color: #1F2937;
+    color: #e5e7eb;
+    justify-content: center;
+    align-items: center;    
+}
+    
